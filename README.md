@@ -2,8 +2,18 @@
 ### DIY vacuum pick up project for hand SMT assembly. 
 The hardware is based around an inexpensive air pump, 3 valves and a controller board utilizing the ATTINY806 microcontroller.  
 Firmware is available as PlatformIO project (sources) and a precompiled hex file.  
+The enclosure and the handle was reused from a damaged Ayoue932 vacuum pick up.
 
 ![alt text][pic8]  
+
+--- 
+### Operation
+* vacuum activated using a touch button on the handle or a footswitch
+*  Button 1: Vacuum mode
+*  Button 2: Clean/air blow mode for cleaning the nozzle
+*  Button 3: pump always on mode
+*  0-100% pump speed control using a potentiometer
+
 ![alt text][pic11]
 ![alt text][pic9]
 ![alt text][pic10]
@@ -34,7 +44,7 @@ Design is done using FreeCAD:
 ![alt text][pic6] 
 
 The main parts are:  
-* Base plate used to mount the pump holder and the rest of the assembly
+* Base plate used to mount the pump holder and the rest of the assembly (see [MountingPlates])
 * Top plate used to mount the valves
 * 2 part 3D printed pump holder (step files are available)
 * Valve holder - 3D printed part
@@ -90,3 +100,4 @@ www.hexefx.com
 [pic15]: pics/handle3.jpg "VaccumPick-Handle"
 
 [Schematic]: /Hardware/VacuumPick_schm.pdf "Schematic"
+[MountingPlates]: /Hardware/VacuumPick_MountingPlates.pdf "Plates mech. drawings"
